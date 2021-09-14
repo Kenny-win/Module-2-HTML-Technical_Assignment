@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Website Pertamaku</h1>
+
+    <nav>
+        <a href="#header">header</a>
+        <a href="#profilku">profilku</a>
+        <a href="#film-favoritku">film favoritku</a>
+        <a href="#get-in-touch">get in touch</a>
+    </nav>
+
+    <section id="header">
+        <p>Ini adalah pertama kali saya membuat sebuah website menggunakan HTML</p>
+        <a href="https://www.google.com" target="_blank">tekan ini untuk pergi ke google</a>
+    </section>
+
+    <br>
+    <br>
+
+    <section id="profilku">
+        <h1>Profilku</h1>
+        <img src="https://cbsnews1.cbsistatic.com/hub/i/2018/11/06/0c1af1b8-155a-458e-b105-78f1e7344bf4/2018-11-06t054310z-1334124005-rc1be15a8050-rtrmadp-3-people-sexiest-man.jpg" width="200px" height="200px" alt="fotoku">
+        <ul>
+            <li>nama: Kenny Calnelius Winata</li>
+            <li>email: jimhwang678@gmail.com</li>
+            <li>daerah: Medan</li>
+            <li>hobi</li>
+            <ol>
+                <li>Mengajar</li>
+                <li>Cari Uang</li>
+                <li>Belajar</li>
+            </ol>
+        </ul>
+    </section>
+
+    <br>
+    <br>
+
+    <section id="film-favoritku">
+        <h1>Film Favoritku</h1>
+        <table>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Produsen</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Avangers</td>
+            <td>Marvel</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SpiderMan</td>
+            <td>Marvel</td>
+        </tr>
+        </table>
+    </section>
+
+    <br>
+    <br>
+
+    <section id="get-in-touch">
+        <h1>Get in Touch</h1>
+        <form>
+            <label for="nama">nama</label>
+            <input type="text" id="nama"><br>
+            <label for="email">email</label>
+            <input type="email" id="email"><br><br>
+            <button type="submit">submit</button>
+        </form>
+    </section>
+</body>
+</html>
